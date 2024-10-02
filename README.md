@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cryptalyst - Ransomware Analysis Tool
 
 Cryptalyst is a user-friendly GUI application designed to assist in the analysis of ransomware-encrypted files. It provides a visual comparison between original and encrypted files, helping security researchers and analysts understand the encryption patterns and characteristics of various ransomware strains.
@@ -84,3 +85,7 @@ Contributions to Cryptalyst are welcome! Please feel free to submit pull request
 ## Disclaimer
 
 Cryptalyst is intended for educational and research purposes only. Always handle potentially malicious files with caution and in a secure, isolated environment.
+=======
+# Cryptalyst
+A Python-based tool to compare original and ransomware-encrypted files, identify encrypted sections, and generate a report showing encrypted byte ranges. Supports batch processing and multiple output formats (JSON, HTML), with visualizations of encrypted regions.
+>>>>>>> 0814e28cdb42bc397bdee203eb355cc25aa34eaf
