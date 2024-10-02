@@ -1,0 +1,402 @@
+[
+  {
+    "name": "777 Ransom",
+    "extensions": [".777"]
+  },
+  {
+    "name": "AES_NI Ransom",
+    "extensions": [".aes_ni", ".aes256"]
+  },
+  {
+    "name": "Agent.iih Ransom",
+    "extensions": [".agent.iih"]
+  },
+  {
+    "name": "Akira Ransom",
+    "extensions": [".akira"]
+  },
+  {
+    "name": "Alcatraz Ransom",
+    "extensions": [".alcatraz"]
+  },
+  {
+    "name": "Alpha Ransom",
+    "extensions": [".alpha"]
+  },
+  {
+    "name": "Amnesia Ransom",
+    "extensions": [".amnesia"]
+  },
+  {
+    "name": "Amnesia2 Ransom",
+    "extensions": [".amnesia2"]
+  },
+  {
+    "name": "Annabelle Ransom",
+    "extensions": [".annabelle"]
+  },
+  {
+    "name": "AstraLocker Ransom",
+    "extensions": [".AstraLocker"]
+  },
+  {
+    "name": "AtomSilo Ransom",
+    "extensions": [".atom"]
+  },
+  {
+    "name": "Aura Ransom",
+    "extensions": [".aura"]
+  },
+  {
+    "name": "Aurora Ransom",
+    "extensions": [".aurora"]
+  },
+  {
+    "name": "AutoIt Ransom",
+    "extensions": [".autoit"]
+  },
+  {
+    "name": "AutoLocky Ransom",
+    "extensions": [".locky"]
+  },
+  {
+    "name": "Avaddon Ransom",
+    "extensions": [".avdn"]
+  },
+  {
+    "name": "Avest Ransom",
+    "extensions": [".avest"]
+  },
+  {
+    "name": "BTCWare Ransom",
+    "extensions": [".btcware", ".onyon", ".cryptobyte"]
+  },
+  {
+    "name": "Babuk Ransom",
+    "extensions": [".babuk"]
+  },
+  {
+    "name": "BadBlock Ransom",
+    "extensions": [".badblock"]
+  },
+  {
+    "name": "BarRax Ransom",
+    "extensions": [".barrax"]
+  },
+  {
+    "name": "Bart Ransom",
+    "extensions": [".bart.zip"]
+  },
+  {
+    "name": "Bianlian Ransom",
+    "extensions": [".bianlian"]
+  },
+  {
+    "name": "BigBobRoss Ransom",
+    "extensions": [".obfuscated", ".crypted"]
+  },
+  {
+    "name": "Bitcryptor Ransom",
+    "extensions": [".bitcryptor"]
+  },
+  {
+    "name": "BlackBasta Ransom",
+    "extensions": [".basta"]
+  },
+  {
+    "name": "CERBER V1 Ransom",
+    "extensions": [".cerber"]
+  },
+  {
+    "name": "Chaos Ransom",
+    "extensions": [".chaos"]
+  },
+  {
+    "name": "CheckMail7 Ransom",
+    "extensions": [".checkmail"]
+  },
+  {
+    "name": "Chernolocker Ransom",
+    "extensions": [".chernolocker"]
+  },
+  {
+    "name": "Chimera Ransom",
+    "extensions": [".chimera"]
+  },
+  {
+    "name": "Coinvault Ransom",
+    "extensions": [".coinvault"]
+  },
+  {
+    "name": "Cry128 Ransom",
+    "extensions": [".cry128"]
+  },
+  {
+    "name": "Cry9 Ransom",
+    "extensions": [".cry9"]
+  },
+  {
+    "name": "CryCryptor Ransom",
+    "extensions": [".crycryptor"]
+  },
+  {
+    "name": "CrySIS Ransom",
+    "extensions": [".crySis", ".crypted"]
+  },
+  {
+    "name": "Cryakl Ransom",
+    "extensions": [".cryakl"]
+  },
+  {
+    "name": "Crybola Ransom",
+    "extensions": [".crybola"]
+  },
+  {
+    "name": "Crypt32 Ransom",
+    "extensions": [".crypt32"]
+  },
+  {
+    "name": "Crypt888 Ransom",
+    "extensions": [".crypt888"]
+  },
+  {
+    "name": "CryptON Ransom",
+    "extensions": [".crypton"]
+  },
+  {
+    "name": "CryptXXX V1–V5 Ransom",
+    "extensions": [".crypt", ".crypz", ".crypted"]
+  },
+  {
+    "name": "CryptoMix Ransom",
+    "extensions": [".cryptoshield", ".mixp", ".cklp"]
+  },
+  {
+    "name": "Cryptokluchen Ransom",
+    "extensions": [".cryptokluchen"]
+  },
+  {
+    "name": "Cyborg Ransom",
+    "extensions": [".cyborg"]
+  },
+  {
+    "name": "DXXD Ransom",
+    "extensions": [".dxxd"]
+  },
+  {
+    "name": "Daivol Ransom",
+    "extensions": [".daivol"]
+  },
+  {
+    "name": "Damage Ransom",
+    "extensions": [".damage"]
+  },
+  {
+    "name": "Darkside Ransom",
+    "extensions": [".darkside"]
+  },
+  {
+    "name": "Democry Ransom",
+    "extensions": [".democry"]
+  },
+  {
+    "name": "Derialock Ransom",
+    "extensions": [".derialock"]
+  },
+  {
+    "name": "Dharma Ransom",
+    "extensions": [".dharma", ".java", ".bip"]
+  },
+  {
+    "name": "DoNex Ransom",
+    "extensions": [".donex"]
+  },
+  {
+    "name": "DragonCyber Ransom",
+    "extensions": [".dragoncyber"]
+  },
+  {
+    "name": "ElvisPresley Ransom",
+    "extensions": [".elvispresley"]
+  },
+  {
+    "name": "EncrypTile Ransom",
+    "extensions": [".encrypTile"]
+  },
+  {
+    "name": "Everbe 1.0 Ransom",
+    "extensions": [".everbe"]
+  },
+  {
+    "name": "FONIX Ransom",
+    "extensions": [".fonix"]
+  },
+  {
+    "name": "FenixLocker Ransom",
+    "extensions": [".fenix"]
+  },
+  {
+    "name": "FilesLocker v1 and v2 Ransom",
+    "extensions": [".fileslocker"]
+  },
+  {
+    "name": "FortuneCrypt Ransom",
+    "extensions": [".fortunecrypt"]
+  },
+  {
+    "name": "Fury Ransom",
+    "extensions": [".fury"]
+  },
+  {
+    "name": "GalactiCryper Ransom",
+    "extensions": [".galacticryper"]
+  },
+  {
+    "name": "GandCrab (V1, V4, V5.2) Ransom",
+    "extensions": [".krab", ".gdb", ".gandcrab"]
+  },
+  {
+    "name": "GetCrypt Ransom",
+    "extensions": [".getcrypt"]
+  },
+  {
+    "name": "Globe Ransom",
+    "extensions": [".globe", ".crypted"]
+  },
+  {
+    "name": "Globe2 Ransom",
+    "extensions": [".globe2"]
+  },
+  {
+    "name": "Globe3 Ransom",
+    "extensions": [".globe3"]
+  },
+  {
+    "name": "GlobeImposter Ransom",
+    "extensions": [".globeimposter"]
+  },
+  {
+    "name": "GoGoogle Ransom",
+    "extensions": [".googoogle"]
+  },
+  {
+    "name": "Gomasom Ransom",
+    "extensions": [".gomasom"]
+  },
+  {
+    "name": "HKCrypt Ransom",
+    "extensions": [".hkcrypt"]
+  },
+  {
+    "name": "Hakbit Ransom",
+    "extensions": [".hakbit"]
+  },
+  {
+    "name": "HermeticRansom Ransom",
+    "extensions": [".hermeticransom"]
+  },
+  {
+    "name": "HiddenTear Ransom",
+    "extensions": [".locked", ".crypted"]
+  },
+  {
+    "name": "HildaCrypt Ransom",
+    "extensions": [".hildacrypt"]
+  },
+  {
+    "name": "Hive (v1–v4) Ransom",
+    "extensions": [".hive"]
+  },
+  {
+    "name": "HomuWitch Ransom",
+    "extensions": [".homuwitch"]
+  },
+  {
+    "name": "Iams00rry Ransom",
+    "extensions": [".iams00rry"]
+  },
+  {
+    "name": "InsaneCrypt Ransom",
+    "extensions": [".insanecrypt"]
+  },
+  {
+    "name": "Iwanttits Ransom",
+    "extensions": [".iwanttits"]
+  },
+  {
+    "name": "JSWorm 2.0 Ransom",
+    "extensions": [".jsworm"]
+  },
+  {
+    "name": "Jaff Ransom",
+    "extensions": [".jaff"]
+  },
+  {
+    "name": "JavaLocker Ransom",
+    "extensions": [".javablocker"]
+  },
+  {
+    "name": "Jigsaw Ransom",
+    "extensions": [".fun"]
+  },
+  {
+    "name": "Judge Ransom",
+    "extensions": [".judge"]
+  },
+  {
+    "name": "Kokokrypt Ransom",
+    "extensions": [".kokokrypt"]
+  },
+  {
+    "name": "LECHIFFRE Ransom",
+    "extensions": [".lechiffre"]
+  },
+  {
+    "name": "LambdaLocker Ransom",
+    "extensions": [".lambda"]
+  },
+  {
+    "name": "Lamer Ransom",
+    "extensions": [".lamer"]
+  },
+  {
+    "name": "Linux.Encoder.1 Ransom",
+    "extensions": [".encoder1"]
+  },
+  {
+    "name": "LockFile Ransom",
+    "extensions": [".lockfile"]
+  },
+  {
+    "name": "Lockbit 3.0 Ransom",
+    "extensions": [".lockbit"]
+  },
+  {
+    "name": "Loocipher Ransom",
+    "extensions": [".loocipher"]
+  },
+  {
+    "name": "Lorenz Ransom",
+    "extensions": [".lorenz"]
+  },
+  {
+    "name": "Lortok Ransom",
+    "extensions": [".lortok"]
+  },
+  {
+    "name": "MacRansom Ransom",
+    "extensions": [".macransom"]
+  },
+  {
+    "name": "MafiaWare666 Ransom",
+    "extensions": [".mafiaware666"]
+  },
+  {
+    "name": "Magniber Ransom",
+    "extensions": [".magniber"]
+  },
+  {
+    "name": "Maze Ransom",
+    "extensions": [".maze"]
+  }
+]

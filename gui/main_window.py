@@ -130,6 +130,8 @@ class MainWindow(QMainWindow):
         self.comparison_queue = Queue()
         self.apply_theme()
 
+        self.known_extensions = self.load_known_extensions()
+
     def setup_ui(self):
         
         file_selection_layout = QHBoxLayout()
@@ -218,6 +220,9 @@ class MainWindow(QMainWindow):
                 self.encrypted_files = file_paths
                 self.encrypted_files_list.clear()
                 self.encrypted_files_list.addItems([path.split('/')[-1] for path in file_paths])
+            
+            self.clear_ransomware_widget()
+            self.check_known_extensions(file_paths)
 
     def compare_files(self):
         if not self.original_files or not self.encrypted_files:
@@ -317,6 +322,57 @@ class MainWindow(QMainWindow):
             QMessageBox.information(self, "Success", f"Report exported successfully as {export_format}.")
         except Exception as e:
             QMessageBox.critical(self, "Error", f"An error occurred while exporting the report: {str(e)}")
+
+    def load_known_extensions(self):
+        with open('known_extensions.json', 'r', encoding='utf-8') as f:
+            return json.load(f)
+
+    def check_known_extensions(self, file_paths):
+        matched_ransomware = set()
+        for file_path in file_paths:
+            file_extension = os.path.splitext(file_path)[1].lower()
+            for ransomware in self.known_extensions:
+                if file_extension in ransomware['extensions']:
+                    matched_ransomware.add(ransomware['name'])
+
+        if matched_ransomware:
+            self.show_ransomware_widget(matched_ransomware)
+
+    def clear_ransomware_widget(self):
+        for i in reversed(range(self.content_layout.count())):
+            widget = self.content_layout.itemAt(i).widget()
+            if isinstance(widget, QWidget) and widget.objectName() == "known_extensions_widget":
+                widget.setParent(None)
+
+    def show_ransomware_widget(self, matched_ransomware):
+        widget = QWidget()
+        widget.setObjectName("known_extensions_widget")
+        layout = QVBoxLayout()
+
+        title_label = QLabel("Potential Ransomware Detected! Visit NoMoreRansom.org for decryption tools.")
+        title_label.setFont(QFont("Arial", 12, QFont.Weight.Bold))
+        layout.addWidget(title_label)
+
+        for ransomware in matched_ransomware:
+            label = QLabel()
+            label.setTextInteractionFlags(Qt.TextInteractionFlag.TextBrowserInteraction)
+            label.setOpenExternalLinks(True)
+            ransomware_text = f"• {ransomware}"
+            label.setText(ransomware_text)
+            layout.addWidget(label)
+
+        widget.setLayout(layout)
+        widget.setStyleSheet("""
+            background-color: #fee180;
+            color: #856404;
+            border-radius: 5px;
+            padding: 3px;
+            a {
+                color: teal;
+            }
+        """)
+
+        self.content_layout.addWidget(widget)
 
 class VisualRepresentation(QWidget):
     def __init__(self, result):
