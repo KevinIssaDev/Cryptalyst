@@ -2,6 +2,7 @@
 
 Cryptalyst is a user-friendly GUI application designed to assist in the analysis of ransomware-encrypted files. It provides a visual comparison between original and encrypted files, helping security researchers and analysts understand the encryption patterns and characteristics of various ransomware strains.
 
+**Note**: This project is currently a work in progress and is in its early stages of development.
 
 ## How It Works
 
