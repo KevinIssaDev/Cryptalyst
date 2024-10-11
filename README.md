@@ -1,4 +1,4 @@
-# Cryptalyst - Ransomware Analysis Tool
+F# Cryptalyst - Post-Ransomware File Analysis Tool
 
 Cryptalyst is a user-friendly GUI application designed to assist in the analysis of ransomware-encrypted files. It provides a visual comparison between original and encrypted files, helping security researchers and analysts understand the encryption patterns and characteristics of various ransomware strains.
 
